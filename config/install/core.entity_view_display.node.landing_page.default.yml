@@ -1,0 +1,45 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.landing_page.body
+    - field.field.node.landing_page.field_css
+    - field.field.node.landing_page.field_domain_access
+    - field.field.node.landing_page.field_domain_all_affiliates
+    - field.field.node.landing_page.field_domain_source
+    - field.field.node.landing_page.field_footer_js
+    - field.field.node.landing_page.field_header_js
+    - field.field.node.landing_page.field_machine_name
+    - field.field.node.landing_page.field_template_list
+    - field.field.node.landing_page.field_turn_off_default_css
+    - field.field.node.landing_page.field_turn_off_default_js
+    - node.type.landing_page
+  module:
+    - text
+    - user
+id: node.landing_page.default
+targetEntityType: node
+bundle: landing_page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  field_css: true
+  field_domain_access: true
+  field_domain_all_affiliates: true
+  field_domain_source: true
+  field_footer_js: true
+  field_header_js: true
+  field_machine_name: true
+  field_template_list: true
+  field_turn_off_default_css: true
+  field_turn_off_default_js: true
+  links: true

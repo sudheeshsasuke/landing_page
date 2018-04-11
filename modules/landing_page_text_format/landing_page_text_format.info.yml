@@ -1,0 +1,5 @@
+name: landing page text format
+description: New text format created for landing page module.
+type: module
+package: custom
+core: 8.x
